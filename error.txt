@@ -30,3 +30,30 @@ drwxrwxr-x 5 yuzu yuzu 4.0K  3月 11 09:31 src
 wget https://raw.githubusercontent.com/ROBOTIS-GIT/OpenCR-Binaries/master/turtlebot3/ROS2/latest/opencr_update.tar.bz2
 
 tar -xvjf opencr_update.tar.bz2
+
+yuzu@raspberry-pi:~/turtlebot3_ws$   
+wget https://raw.githubusercontent.com/ROBOTIS-GIT/OpenCR-Binaries/master/turtlebot3/ROS2/latest/opencr_update.tar.bz2
+--2026-03-11 11:43:22--  https://raw.githubusercontent.com/ROBOTIS-GIT/OpenCR-Binaries/master/turtlebot3/ROS2/latest/opencr_update.tar.bz2
+Resolving raw.githubusercontent.com (raw.githubusercontent.com)... 185.199.108.133, 185.199.110.133, 185.199.109.133, ...
+Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|185.199.108.133|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 359119 (351K) [application/octet-stream]
+Saving to: ‘opencr_update.tar.bz2’
+
+opencr_update.tar.b 100%[===================>] 350.70K  1.26MB/s    in 0.3s    
+
+2026-03-11 11:43:23 (1.26 MB/s) - ‘opencr_update.tar.bz2’ saved [359119/359119]
+
+yuzu@raspberry-pi:~/turtlebot3_ws$ ls -lh
+total 368K
+drwxrwxr-x 5 yuzu yuzu 4.0K  3月 11 09:46 build
+drwxrwxr-x 5 yuzu yuzu 4.0K  3月 11 09:46 install
+drwxrwxr-x 5 yuzu yuzu 4.0K  3月 11 09:46 log
+-rw-rw-r-- 1 yuzu yuzu 351K  3月 11 11:43 opencr_update.tar.bz2
+drwxrwxr-x 5 yuzu yuzu 4.0K  3月 11 09:31 src
+yuzu@raspberry-pi:~/turtlebot3_ws$ tar -xvjf opencr_update.tar.bz2
+bzip2: (stdin) is not a bzip2 file.
+tar: Child returned status 2
+tar: Error is not recoverable: exiting now
+yuzu@raspberry-pi:~/turtlebot3_ws$ 
+
