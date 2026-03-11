@@ -1,0 +1,14 @@
+yuzu@raspberry-pi:~/turtlebot3_ws$ rm opencr_update.tar.bz2 
+yuzu@raspberry-pi:~/turtlebot3_ws$ ls
+build  install  log  src
+yuzu@raspberry-pi:~/turtlebot3_ws$ tar -xvjf opencr_update.tar.bz2 
+bzip2: (stdin) is not a bzip2 file.
+tar: Child returned status 2
+tar: Error is not recoverable: exiting now
+yuzu@raspberry-pi:~/turtlebot3_ws$ ls
+build  install  log  opencr_update.tar.bz2  src
+yuzu@raspberry-pi:~/turtlebot3_ws$ tar -jxvf opencr_update.tar.bz2 
+bzip2: (stdin) is not a bzip2 file.
+tar: Child returned status 2
+tar: Error is not recoverable: exiting now
+yuzu@raspberry-pi:~/turtlebot3_ws$ 
