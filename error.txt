@@ -12,3 +12,11 @@ bzip2: (stdin) is not a bzip2 file.
 tar: Child returned status 2
 tar: Error is not recoverable: exiting now
 yuzu@raspberry-pi:~/turtlebot3_ws$ 
+
+cd ~/turtlebot3_ws
+
+rm -f opencr_update.tar.bz2
+
+wget https://github.com/ROBOTIS-GIT/OpenCR-Binaries/raw/master/turtlebot3/ROS2/latest/opencr_update.tar.bz2
+
+ls -lh
