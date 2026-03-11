@@ -20,3 +20,9 @@ rm -f opencr_update.tar.bz2
 wget https://github.com/ROBOTIS-GIT/OpenCR-Binaries/raw/master/turtlebot3/ROS2/latest/opencr_update.tar.bz2
 
 ls -lh
+
+drwxrwxr-x 5 yuzu yuzu 4.0K  3月 11 09:46 build
+drwxrwxr-x 5 yuzu yuzu 4.0K  3月 11 09:46 install
+drwxrwxr-x 5 yuzu yuzu 4.0K  3月 11 09:46 log
+-rw-rw-r-- 1 yuzu yuzu 351K  3月 11 11:41 opencr_update.tar.bz2
+drwxrwxr-x 5 yuzu yuzu 4.0K  3月 11 09:31 src
