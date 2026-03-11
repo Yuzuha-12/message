@@ -28,3 +28,5 @@ drwxrwxr-x 5 yuzu yuzu 4.0K  3月 11 09:46 log
 drwxrwxr-x 5 yuzu yuzu 4.0K  3月 11 09:31 src
 
 wget https://raw.githubusercontent.com/ROBOTIS-GIT/OpenCR-Binaries/master/turtlebot3/ROS2/latest/opencr_update.tar.bz2
+
+tar -xvjf opencr_update.tar.bz2
